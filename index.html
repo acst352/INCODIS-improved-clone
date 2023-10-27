@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="es-MX" style="padding-left: 100px; padding-right: 100px;">
+
+<head>
+    <title>Sitio Web del Instituto Colimense para la Discapacidad</title>
+    <link rel="icon" href="https://www.col.gob.mx/ci/img/logo_gob_hd.png" type="image/x-icon">
+    <link href="/src/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav aria-label="">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" aria-label="">
+                <div class="container-fluid">
+                    <img id="logocol" src="https://www.col.gob.mx/ci/img/logo_gob_hd.png"
+                        alt="logo de gobierno de colima">
+                    <h1 class="display-6">Instituto Colimense para la Discapacidad</h1>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Destacados
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="http://www.incodis.col.gob.mx/bolsa.php">Bolsa de
+                                            Trabajo para
+                                            Personas con Discapacidad</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="http://www.incodis.col.gob.mx/derechosPcD.php">Derechos de las
+                                            Personas con Discapacidad</a></li>
+                                    <li><a class="dropdown-item" href="http://www.tarjetonincodis.col.gob.mx"
+                                            target="_blank"
+                                            alt="Ir al sistema para solicitudes de expedición y renovación del Tarjetón, se abrirá en una nueva pestaña del navegador">Solicitar
+                                            Tarjetón de Estacionamiento para discapacidad motríz</a></li>
+
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="http://www.incodis.col.gob.mx/sistema/citas.altas.php">Solicitar
+                                            una Cita de atención en Oficinas del INCODIS</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Multimedia
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item"
+                                            href="http://www.incodis.col.gob.mx/documentos/braille_clase.php"
+                                            target="_blank"
+                                            alt="ir a la clase maestra de braille en su nivel inicial, se abrirá en una nueva pestaña del navegador">Clase
+                                            Maestra de Sistema Braille, Nivel Inicial</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="http://www.incodis.col.gob.mx/sistema/citas.altas.php">Sensibilización
+                                            sobre Discapacidad</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="http://www.incodis.col.gob.mx/informes_de_ley.php">Informes que
+                                            por Ley debe presentar el INCODIS</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Información acerca del INCODIS
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item"
+                                            href="http://www.incodis.col.gob.mx/antecedentes.php">Antecedentes del
+                                            INCODIS</a></li>
+                                    <li><a class="dropdown-item" href="http://www.incodis.col.gob.mx/mision.php">Visión,
+                                            Misión y
+                                            Objetivo del INCODIS</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="http://www.incodis.col.gob.mx/atribuciones.php">Atribuciones del
+                                            INCODIS</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="http://www.incodis.col.gob.mx/organigrama.php">Organigrama del
+                                            INCODIS</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="http://www.incodis.col.gob.mx/direcciones.php">Direcciones del
+                                            INCODIS</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="http://www.incodis.col.gob.mx/coordinaciones.php">Coordinaciones
+                                            del INCODIS</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="http://www.incodis.col.gob.mx/departamentos.php">Departamentos del
+                                            INCODIS</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="http://www.incodis.col.gob.mx/directorio.php">Directorio de
+                                            Personal del INCODIS a partir de Jefes de Departamento</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="http://www.incodis.col.gob.mx/etrabajo.php">Equipo de Trabajo del
+                                            INCODIS</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="http://www.incodis.col.gob.mx/documentos_incodis.php">Documentos
+                                            públicos del INCODIS</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="http://www.incodis.col.gob.mx/mapa_ubicacion.php">Mapa de
+                                            Ubicación del INCODIS</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="http://www.incodis.col.gob.mx/contactanos.php">Contáctanos</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Transparencia
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item"
+                                            href="http://www.incodis.col.gob.mx/transparencia.buscador.php">Portal
+                                            de Obligaciones de Transparencia</a></li>
+                                    <li><a class="dropdown-item" href="https://decla-csp.col.gob.mx" target="_blank"
+                                            alt="Ir al sitio web para búsqueda de declaraciones patrimoniales de la Contraloría General del Estado de Colima">Buscar
+                                            Declaraciones Patrimoniales y de Intereses</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="http://www.incodis.col.gob.mx/estados_financieros.php">Informes de
+                                            Cuenta Pública</a></li>
+                                    <li><a class="dropdown-item" href="http://www.incodis.col.gob.mx/enlace.php">Enlaces
+                                            con
+                                            Ciudadanía</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="http://www.incodis.col.gob.mx/normatividad.php">Normatividad a
+                                            seguir por el INCODIS</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="http://www.incodis.col.gob.mx/servicios_programas.php">Servicios y
+                                            Programas de Desarrollo Social del INCODIS</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="http://www.incodis.col.gob.mx/beneficiarios.php">Información de
+                                            montos pagados por el INCODIS para Ayudas y Subsidios<br>(Padrón de
+                                            Beneficiarios y Manual de Trámites Administrativos de los <br>Programas
+                                            de Desarrollo Social del INCODIS)</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="http://www.incodis.col.gob.mx/matrices_indicadores_resultados.php">Matrices
+                                            de Indicadores de Resultados de los Programas de Desarrollo<br>Social
+                                            del INCODIS</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="http://www.incodis.col.gob.mx/reglas_operacion_apoyos_programas.php">Reglas
+                                            de Operación de Apoyos y Programas del INCODIS</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="http://www.incodis.col.gob.mx/ligas_interes.php">Ligas de
+                                            Interés</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Comité de Ética y Prevención de Conflictos
+                                            de Interés del INCODIS (CEPCI)</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="http://www.incodis.col.gob.mx/incodis_cocodit.php">Comité de
+                                            Control, Desempeño Institucional y de Tecnologías de la<br>Información
+                                            del INCODIS (COCODIT)</a></li>
+                                    <li><a class="dropdown-item" href="#">Comité de Adquisiciones</a></li>
+                                    <li><a class="dropdown-item" href="#">Comité de Equidad de Género</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item"
+                                            href="http://www.incodis.col.gob.mx/documentos/fotradis_2020/fotradis_colima_2020.html"
+                                            target="_blank"
+                                            alt="Ir al micrositio de transparencia del FOTRADIS 2020">FOTRADIS 2020
+                                            - Información de Transparencia del Fondo<br>para la Accesibilidad en el
+                                            Transporte Público de las Personas<br>con Discapacidad por el Ejercicio
+                                            Fiscal de 2020</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="http://www.incodis.col.gob.mx/documentos/fotradis_2019/fotradis_colima_2019.html"
+                                            target="_blank"
+                                            alt="Ir al micrositio de transparencia del FOTRADIS 2019">FOTRADIS 2019
+                                            - Información de Transparencia del Fondo<br>para la Accesibilidad en el
+                                            Transporte Público de las Personas<br>con Discapacidad por el Ejercicio
+                                            Fiscal de 2019</a></li>
+                                </ul>
+                            <li class="nav-item">
+                                <a class="nav-link"
+                                    href="http://www.incodis.col.gob.mx/servicios_programas.php">Programas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="http://www.incodis.col.gob.mx/noticias.php">Noticias</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Busca en el sitio"
+                                aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </nav>
+    </header>
+    <main>
+        <container class="Anuncios">
+            <img style="width: 100%; height: auto;"
+                src="http://www.incodis.col.gob.mx/documentos/pncs/2023/pncs2023btn.jpg" class="img-fluid" alt="...">
+            <img style="width: 100%; height: auto;"
+                src="http://www.incodis.col.gob.mx/documentos/cntc/2023/cntc23btn.jpg" class="img-fluid" alt="...">
+            <img style="width: 100%; height: auto;"
+                src="http://www.incodis.col.gob.mx/documentos/ineCIJ/2021/ine_cij2021.jpg" class="img-fluid" alt="...">
+        </container>
+        <hr>
+        <container class="Destacados">
+            <h2>Destacados</h2>
+            <hr>
+            <div class="links">
+                <ul class="list-inline">
+                    <li><a href="http://www.incodis.col.gob.mx/bolsa.php" target="_blank" data-bs-toggle="popover"
+                            data-bs-placement="right"
+                            data-bs-content="http://www.incodis.col.gob.mx/documentos/imgdestacados/btrabajo.jpg"
+                            tabindex="202">Bolsa de Trabajo INCODIS</a></li>
+                    <br><br>
+                    <li><a href="http://www.incodis.col.gob.mx/derechosPcD.php" target="_blank" data-toggle="tooltip"
+                            data-placement="right" title="destacados" tabindex="203">Derechos de las Personas con
+                            Discapacidad</a></li>
+                    <br><br>
+                    <li><a href="http://www.tarjetonincodis.col.gob.mx" data-toggle="tooltip" data-placement="right"
+                            title="destacados" target="_blank" tabindex="204">Solicitar Tarjeton de Estacionamiento para
+                            Discapacidad Motriz Temporal o Permanente</a></li>
+                    <br><br>
+                    <li><a href="http://www.incodis.col.gob.mx/sistema/citas.altas.php" target="_blank"
+                            data-toggle="tooltip" data-placement="right" title="destacados" tabindex="205">Registrar una
+                            Cita de Atención en Oficinas del INCODIS</a></li>
+                </ul>
+            </div>
+        </container>
+        <hr>
+        <container class="Noticias">
+            <h2>Noticias</h2>
+            <hr>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/img/Carrusel_de_Noticias/Extension Cordinacion General.jpg" class="d-block w-100"
+                            alt="...">
+                        <div class="carousel-caption d-none d-md-block" style="color:#FF0">
+                            <h3>Gestiona Titular de INCODIS colaboración con la UdeC en materia de Lengua
+                                de Señas Mexicana y certificación de competencias laborales</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/Carrusel_de_Noticias/Colima Gobierno del Estado.jpg" class="d-block w-100"
+                            alt="...">
+                        <div class="carousel-caption d-none d-md-block" style="color:rgb(0, 0, 0)">
+                            <h3>Recibirán funcionarios y prestadores de servicios de la villa capacitación en lenguaje
+                                de señas impartida por el INCODIS</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/Carrusel_de_Noticias/Nombramiento David.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block" style="color:#FF0">
+                            <h3>Entrega de nombramiento a David Enyelnim Monroy Rodriguez como Director General del
+                                INCODIS</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/Carrusel_de_Noticias/Video No Violencia Mujeres.jpg" class="d-block w-100"
+                            alt="...">
+                        <div class="carousel-caption d-none d-md-block" style="color:#FF0">
+                            <h3>Promueve Gobernadora de Colima, campaña “¡Ya basta! pongamos fin a las violencias contra
+                                las mujeres”</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/Carrusel_de_Noticias/Paseo_Playa_Santiago_20may2019.jpg" class="d-block w-100"
+                            alt="...">
+                        <div class="carousel-caption d-none d-md-block" style="color:#FF0">
+                            <h3>Gestiona titular de INCODIS transporte a personas usuarias de silla de ruedas de la
+                                comunidad de San Felipe de Jesús, para viaje de recreación y esparcimiento a la playa de
+                                Santiago</h3>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/Carrusel_de_Noticias/INCODIS_UdeC_DiploLSM_03oct2022.jpg" class="d-block w-100"
+                            alt="...">
+                        <div class="carousel-caption d-none d-md-block" style="color:#FF0">
+                            <h3>INCODIS y UdeC invitan al diplomado "Lengua de Señas Mexicana"</h3>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </container>
+        <hr>
+        <container class="Mensaje de Bienvenida">
+            <h2>Mensaje de Bienvenida</h2>
+            <hr>
+            <p>
+                Estimados(as) visitantes del Sitio Web del Instituto Colimense para la Discapacidad (INCODIS), sean
+                Ustedes bienvenidos a este que será su portal informativo y medio de acercamiento con el INCODIS a
+                través de Internet. Aquí encontrarán los antecedentes del Instituto y podrán saber que se pretende
+                lograr mediante los esfuerzos coordinados con otras dependencias y la sociedad civil para cumplir con la
+                misión encomendada por la Gobernadora Constitucional del Estado de Colima, la Licda. Indira Vizcaíno
+                Silva, en materia de Discapacidad para alcanzar el objetivo para el cual fué creado el INCODIS, mediante
+                la ejecución de las atribuciones que le fuerón designadas al Instituto.
+            </p>
+            <p>
+                Así mismo, podrán conocer como está integrado el Instituto y el equipo de trabajo que día a día se
+                esfuerza por servirles a Ustedes. De igual forma, por este medio podrán percatarse de quién fungirá como
+                enlace entre el Instituto y la Ciudadanía en materia de transparencia y acceso a la información pública
+                en cumplimiento a los Artículos 29 y 46 de la Ley de Transparencia y Acceso a la Información Pública del
+                Estado de Colima.
+            </p>
+            <p>
+                Por último, recordarles que estamos para servirles en las Oficinas designadas para el INCODIS en el
+                Complejo de Atención Integral a Grupos Vulnerables, localizado en la Calle Encino No. 530, esquina con
+                Calle Josefa Ortíz de Domínguez, en el Fraccionamiento Rinconada del Pereyra, de la Ciudad de Colima,
+                Colima; mismas que podrán encontrar mediante un Mapa de Ubicación con vínculos a Mapas de recorrido de
+                las Rutas de Transporte Público Incluyente y Colectivo, que llegan cerca de nuestras Instalaciones
+                dentro del Complejo de Atención Integral a Grupos Vulnerables del Estado de Colima.
+            </p>
+            <p>
+                Sin otro particular por el momento, me despido de Ustedes y les reitero nuestro compromiso con las
+                personas que viven con algún tipo de discapacidad.
+            </p>
+        </container>
+        <hr>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
